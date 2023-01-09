@@ -4,14 +4,42 @@
 
 .sidenav {
   width: 200px;
+  background: #FFFBF7 !important;
 }
 
 .sidenav .mat-toolbar {
-  background: inherit;
+  background: #FFFBF7 !important;
 }
 
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.list-item {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px !important;
+display: flex !important;
+flex-direction: row !important;
+justify-content: center !important;
+align-items: center !important;
+left: 18px !important;
+color: #0A0A0A;
+}
+.logo{
+  left: 18px;
+}
+
+.mat-list-head{
+font-family: 'General Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #8D8D8D !important;
+left: 18px;
 }
