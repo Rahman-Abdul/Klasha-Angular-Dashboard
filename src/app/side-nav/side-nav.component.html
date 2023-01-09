@@ -3,29 +3,29 @@
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="(isHandset$ | async) === false">
-    <mat-toolbar class="logo"><img src="/src/assets/icons/klashlogo.png"></mat-toolbar>
+    <mat-toolbar class="home-logo"><mat-icon svgIcon="Klasha-logo" class="home-logo"></mat-icon></mat-toolbar>
     <mat-nav-list>
       <a mat-list-item class="mat-list-head">Main pages</a>
       <mat-nav-list>
-      <a mat-list-item class="list-item" href="#"><mat-icon svgIcon="klashlogo1"></mat-icon>Dashboard</a>
-      <a mat-list-item class="list-item" href="#"><mat-icon>wallet</mat-icon><span class="text">Balances</span></a>
-      <a mat-list-item class="list-item" href="#"> <mat-icon>swap_vert</mat-icon>Transactions</a>
-      <a mat-list-item class="list-item" href="#"><mat-icon>signal_cellular_alt</mat-icon>Analytics</a>
-      <a mat-list-item class="list-item" href="#"><mat-icon>mega_phone</mat-icon>Makerting </a>
-      <a mat-list-item class="list-item" href="#"><mat-icon>sync</mat-icon>Exchange Rates</a>
+      <a mat-list-item class="list-item" href="#"><mat-icon svgIcon="pie-chart-logo" class="icon-logo"></mat-icon>Dashboard</a>
+      <a mat-list-item class="list-item" href="#"><mat-icon svgIcon="wallet-logo" class="icon-logo"></mat-icon>Balances</a>
+      <a mat-list-item class="list-item" href="#"> <mat-icon svgIcon="payments-logo" class="icon-logo"></mat-icon>Transactions</a>
+      <a mat-list-item class="list-item" href="#"><mat-icon svgIcon="chart-logo" class="icon-logo"></mat-icon>Analytics</a>
+      <a mat-list-item class="list-item" href="#"><mat-icon svgIcon="radar-logo" class="icon-logo"></mat-icon>Makerting </a>
+      <a mat-list-item class="list-item" href="#"><mat-icon svgIcon="exchange-logo" class="icon-logo"></mat-icon>Exchange Rates</a>
     </mat-nav-list>
     </mat-nav-list>
     <mat-nav-list>
       <a mat-list-item class="mat-list-head">Accept payments</a>
       <mat-nav-list>
-      <a mat-list-item class="list-item" href="#"><mat-icon>shopping_cart</mat-icon>Check out</a>
-      <a mat-list-item class="list-item" href="#"><mat-icon>links</mat-icon>Payment links</a>
+      <a mat-list-item class="list-item" href="#"><mat-icon svgIcon="shopping-cart-logo" class="icon-logo"></mat-icon>Check out</a>
+      <a mat-list-item class="list-item" href="#"><mat-icon svgIcon="payment-link-logo" class="icon-logo"></mat-icon>Payment links</a>
     </mat-nav-list>
     </mat-nav-list>
     <mat-nav-list>
       <a mat-list-item class="mat-list-head">Send Payments</a>
       <mat-nav-list>
-      <a mat-list-item class="list-item" href="#"><mat-icon>swap_horiz</mat-icon>Wire transfer</a>
+      <a mat-list-item class="list-item" href="#"><mat-icon svgIcon="transactions-logo" class="icon-logo"></mat-icon>Wire transfer</a>
     </mat-nav-list>
     </mat-nav-list>
   </mat-sidenav>

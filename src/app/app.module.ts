@@ -11,8 +11,11 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+
+import { HttpClientModule } from '@angular/common/http';
+import { MaterialModule } from './Shared/material/material.module';
 import { IconModule } from './icon/icon.module';
-import { MaterialModule } from './material/material.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +32,9 @@ import { MaterialModule } from './material/material.module';
     MatIconModule,
     MatListModule,
     MaterialModule,
-    IconModule
+    IconModule,
+    //
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
