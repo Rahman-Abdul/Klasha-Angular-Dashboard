@@ -21,7 +21,9 @@ private path: string = "../../assets/iconss";
   .addSvgIcon("exchange-logo", this.setPath(`${this.path}/exchange.svg`))
   .addSvgIcon("shopping-cart-logo", this.setPath(`${this.path}/shopping-cart.svg`))
   .addSvgIcon("payment-link-logo", this.setPath(`${this.path}/payment-link.svg`))
-  .addSvgIcon("transactions-logo", this.setPath(`${this.path}/transactions.svg`));
+  .addSvgIcon("transactions-logo", this.setPath(`${this.path}/transactions.svg`))
+   .addSvgIcon("help", this.setPath(`${this.path}/help.svg`))
+   .addSvgIcon("left-arrow", this.setPath(`${this.path}/left-arrow.svg`));
  }
  private setPath(url: string): SafeResourceUrl {
   return this.domSanitizer.bypassSecurityTrustResourceUrl(url);

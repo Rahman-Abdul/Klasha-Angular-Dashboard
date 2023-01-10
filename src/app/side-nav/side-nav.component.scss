@@ -21,17 +21,18 @@
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
+height: 35px !important;
 font-size: 16px;
 line-height: 24px !important;
 display: flex !important;
 flex-direction: row !important;
 justify-content: center !important;
 align-items: center !important;
-left: 18px !important;
+left: 5px !important;
 color: #0A0A0A;
 }
-.logo{
-  left: 18px;
+.home-logo{
+  left: 0px !important;
 }
 
 .mat-list-head{
@@ -41,15 +42,30 @@ font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 color: #8D8D8D !important;
-left: 18px;
+left: 5px;
 }
 
 .class-icon{
   fill: #0A0A0A !important;
 }
-.home-icon{
-  width: 100% !important;
-}
+
 .home-logo{
-  width: 100%;
+  width: 80%;
+}
+.nav-button{
+ margin-top: 30px !important;
+  justify-content: space-between;
+margin-left: 25px !important;
+}
+.help-button{
+  border-radius: 39px !important;
+}
+
+.hide-button{
+  margin-top: 15px!important;
+}
+
+.list-item-head{
+left: 18px !important;
+position: relative;
 }
