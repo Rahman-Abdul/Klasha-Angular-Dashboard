@@ -23,8 +23,12 @@ private path: string = "../../assets/iconss";
   .addSvgIcon("payment-link-logo", this.setPath(`${this.path}/payment-link.svg`))
   .addSvgIcon("transactions-logo", this.setPath(`${this.path}/transactions.svg`))
    .addSvgIcon("help", this.setPath(`${this.path}/help.svg`))
-   .addSvgIcon("left-arrow", this.setPath(`${this.path}/left-arrow.svg`));
+   .addSvgIcon("left-arrow", this.setPath(`${this.path}/left-arrow.svg`))
+   .addSvgIcon("person", this.setPath(`${this.path}/person.svg`))
+   .addSvgIcon("heading", this.setPath(`${this.path}/heading.svg`))
+   .addSvgIcon("drop-down", this.setPath(`${this.path}/drop-down.svg`));
  }
+
  private setPath(url: string): SafeResourceUrl {
   return this.domSanitizer.bypassSecurityTrustResourceUrl(url);
  }

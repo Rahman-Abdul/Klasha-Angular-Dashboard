@@ -69,3 +69,33 @@ margin-left: 25px !important;
 left: 18px !important;
 position: relative;
 }
+
+.tool-nav{
+  background-color:#FFFFFF !important;
+
+}
+
+.letf-button{
+  justify-self: left !important;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 16px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: space-between !important;
+}
+
+// Media Query
+ @media screen and (min-width: 603px) {
+  .mat-toolbar-row, .mat-toolbar-single-row {
+
+    justify-content: flex-end !important;
+  }
+ }
+
+

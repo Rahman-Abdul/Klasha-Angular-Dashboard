@@ -14,11 +14,20 @@ import { MatListModule } from '@angular/material/list';
 import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './Shared/material/material.module';
 import { IconModule } from './icon/icon.module';
+import { LoginSelectComponent } from './selectorComponents/login-select/login-select.component';
+import { LangSelectorComponent } from './selectorComponents/lang-selector/lang-selector.component';
+import {MatMenuModule} from '@angular/material/menu';
+import { DashComponent } from './dash/dash.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SideNavComponent
+    SideNavComponent,
+    LoginSelectComponent,
+    LangSelectorComponent,
+    DashComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,8 +41,11 @@ import { IconModule } from './icon/icon.module';
     MatListModule,
     MaterialModule,
     IconModule,
+    MatMenuModule,
     //
     HttpClientModule,
+    MatGridListModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
