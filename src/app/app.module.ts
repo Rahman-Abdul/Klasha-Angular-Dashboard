@@ -20,6 +20,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import { DashComponent } from './dash/dash.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { MatCardModule } from '@angular/material/card';
     LoginSelectComponent,
     LangSelectorComponent,
     DashComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
